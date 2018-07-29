@@ -7,3 +7,5 @@ css:
 build:
 	hugo
 
+serve:
+	hugo serve -w -D

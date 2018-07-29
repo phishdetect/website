@@ -4,9 +4,9 @@ title = "PhishDetect"
 description = "PhishDetect is a tool to help at-risk users identify potential phishing attacks"
 
 [[menu.main]]
-	name = "Docs"
-	url = "/docs/"
+    name = "Docs"
+    url = "/docs/"
 [[menu.main]]
-	name = "FAQ"
-	url = "/faq/"
+    name = "FAQ"
+    url = "/faq/"
 

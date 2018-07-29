@@ -669,6 +669,98 @@ table {
  * @import "components/forms";
  */
 
+body {
+  background-color: #f8fafc;
+  color: #3d4852;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #22292f;
+}
+
+a.dark:link,
+a.dark:visited {
+  color: #22292f;
+  text-decoration: none;
+}
+
+a.dark:hover {
+}
+
+.btn-primary {
+  background-color: #3490dc;
+  border-bottom-width: 8px;
+  border-color: #2779bd;
+  border-radius: .25rem;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #6cb2eb;
+  border-color: #3490dc;
+}
+
+.btn-green {
+  background-color: #4dc0b5;
+  border-bottom-width: 8px;
+  border-color: #38a89d;
+  border-radius: .25rem;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background-color: #64d5ca;
+  border-color: #4dc0b5;
+}
+
+.btn-grey {
+  background-color: #b8c2cc;
+  border-bottom-width: 8px;
+  border-color: #8795a1;
+  border-radius: .25rem;
+  color: #22292f;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+.btn-grey:hover {
+  background-color: #dae1e7;
+  border-color: #b8c2cc;
+}
+
+#footer a:link,
+#footer a:visited {
+  color: #606f7b;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #3d4852;
+  text-decoration: none;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.

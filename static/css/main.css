@@ -36,6 +36,48 @@
  * @import "components/forms";
  */
 
+body {
+    @apply bg-grey-lightest text-grey-darkest;
+}
+
+h1, h2, h3, h4 {
+    @apply text-black;
+}
+
+a.dark:link, a.dark:visited {
+    @apply text-black no-underline;
+}
+a.dark:hover {
+}
+
+.btn-primary {
+    @apply bg-blue border-b-8 border-blue-dark rounded text-white text-xl cursor-pointer px-6 py-4 no-underline;
+}
+.btn-primary:hover {
+    @apply bg-blue-light border-blue;
+}
+
+.btn-green {
+    @apply bg-teal border-b-8 border-teal-dark rounded text-white text-xl cursor-pointer px-6 py-4 no-underline;
+}
+.btn-green:hover {
+    @apply bg-teal-light border-teal;
+}
+
+.btn-grey {
+    @apply bg-grey border-b-8 border-grey-dark rounded text-black text-xl cursor-pointer px-6 py-4 no-underline;
+}
+.btn-grey:hover {
+    @apply bg-grey-light border-grey;
+}
+
+#footer a:link, #footer a:visited {
+    @apply text-grey-darker underline;
+}
+#footer a:hover {
+    @apply text-grey-darkest no-underline;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
