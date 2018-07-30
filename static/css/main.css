@@ -44,10 +44,29 @@ h1, h2, h3, h4 {
     @apply text-black;
 }
 
+/* Navigation */
 a.dark:link, a.dark:visited {
     @apply text-black no-underline;
 }
 a.dark:hover {
+}
+
+.footer-section {
+    @apply mt-2 text-justify;
+}
+
+/* Footer links */
+.footer-section a:link, .footer-section a:visited {
+    @apply text-grey-darker underline;
+}
+.footer-section a:hover {
+    @apply text-grey-darkest no-underline;
+}
+
+a.cc:link, a.cc:visited {
+    @apply text-black no-underline;
+}
+a.cc:hover {
 }
 
 .btn-primary {
@@ -69,13 +88,6 @@ a.dark:hover {
 }
 .btn-grey:hover {
     @apply bg-grey-light border-grey;
-}
-
-#footer a:link, #footer a:visited {
-    @apply text-grey-darker underline;
-}
-#footer a:hover {
-    @apply text-grey-darkest no-underline;
 }
 
 /**

@@ -681,6 +681,8 @@ h4 {
   color: #22292f;
 }
 
+/* Navigation */
+
 a.dark:link,
 a.dark:visited {
   color: #22292f;
@@ -688,6 +690,33 @@ a.dark:visited {
 }
 
 a.dark:hover {
+}
+
+.footer-section {
+  margin-top: .5rem;
+  text-align: justify;
+}
+
+/* Footer links */
+
+.footer-section a:link,
+.footer-section a:visited {
+  color: #606f7b;
+  text-decoration: underline;
+}
+
+.footer-section a:hover {
+  color: #3d4852;
+  text-decoration: none;
+}
+
+a.cc:link,
+a.cc:visited {
+  color: #22292f;
+  text-decoration: none;
+}
+
+a.cc:hover {
 }
 
 .btn-primary {
@@ -748,17 +777,6 @@ a.dark:hover {
 .btn-grey:hover {
   background-color: #dae1e7;
   border-color: #b8c2cc;
-}
-
-#footer a:link,
-#footer a:visited {
-  color: #606f7b;
-  text-decoration: underline;
-}
-
-#footer a:hover {
-  color: #3d4852;
-  text-decoration: none;
 }
 
 /**

@@ -13,12 +13,15 @@
   </url>
   
   <url>
-    <loc>https://phishdetect.io/docs/how-to-use/</loc>
+    <loc>https://phishdetect.io/download/</loc>
   </url>
   
   <url>
     <loc>https://phishdetect.io/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phishdetect.io/docs/how-to-use/</loc>
   </url>
   
   <url>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="/css/dist.css" />
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
+</head>
+<body>
+<div class="p-10 border-b border-grey-light">
+{{ partial "nav.html" }}
+</div>
+<div class="p-12">
+{{ block "main" . }}{{ end }}
+</div>
+<div class="mt-32 p-12 text-sm text-grey-dark border-t border-grey-light">
+{{ partial "footer.html" }}
+</div>
+</body>
+</html>
