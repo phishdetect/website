@@ -44,6 +44,21 @@ h1, h2, h3, h4 {
     @apply text-black;
 }
 
+h1 {
+    @apply text-5xl;
+}
+
+p {
+    @apply leading-normal text-justify;
+}
+
+a:link, a:visited {
+    @apply text-blue underline;
+}
+a:hover {
+    @apply text-blue-dark no-underline;
+}
+
 /* Navigation */
 a.dark:link, a.dark:visited {
     @apply text-black no-underline;
@@ -69,25 +84,29 @@ a.cc:link, a.cc:visited {
 a.cc:hover {
 }
 
+.btn {
+    @apply border-b-8 rounded text-xl cursor-pointer px-6 py-4 no-underline text-black !important;
+}
+
 .btn-primary {
-    @apply bg-blue border-b-8 border-blue-dark rounded text-white text-xl cursor-pointer px-6 py-4 no-underline;
+    @apply bg-blue border-blue-dark text-white !important;
 }
 .btn-primary:hover {
-    @apply bg-blue-light border-blue;
+    @apply bg-blue-light border-blue !important;
 }
 
 .btn-green {
-    @apply bg-teal border-b-8 border-teal-dark rounded text-white text-xl cursor-pointer px-6 py-4 no-underline;
+    @apply bg-teal border-teal-dark text-white !important;
 }
 .btn-green:hover {
-    @apply bg-teal-light border-teal;
+    @apply bg-teal-light border-teal !important;
 }
 
 .btn-grey {
-    @apply bg-grey border-b-8 border-grey-dark rounded text-black text-xl cursor-pointer px-6 py-4 no-underline;
+    @apply bg-grey border-grey-dark text-black !important;
 }
 .btn-grey:hover {
-    @apply bg-grey-light border-grey;
+    @apply bg-grey-light border-grey !important;
 }
 
 /**
