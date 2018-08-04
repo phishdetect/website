@@ -4,6 +4,8 @@
     <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="/css/dist.css" />
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css" />
 </head>
 <body>
 <div class="p-10 border-b border-grey-light">
@@ -12,8 +14,11 @@
 <div class="p-12">
 {{ block "main" . }}{{ end }}
 </div>
-<div class="mt-32 p-12 text-sm text-grey-dark border-t border-grey-light">
+<div class="mt-20 p-12 text-sm text-grey-dark border-t border-grey-light">
 {{ partial "footer.html" }}
 </div>
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+{{ block "scripts" . }}{{ end }}
 </body>
 </html>
