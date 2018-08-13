@@ -681,6 +681,26 @@ h4 {
   color: #22292f;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+a:link,
+a:visited {
+  color: #3490dc;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2779bd;
+  text-decoration: none;
+}
+
 /* Navigation */
 
 a.dark:link,
@@ -719,64 +739,50 @@ a.cc:visited {
 a.cc:hover {
 }
 
+.btn {
+  border-bottom-width: 8px !important;
+  border-radius: .25rem !important;
+  font-size: 1.25rem !important;
+  cursor: pointer !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  text-decoration: none !important;
+  color: #22292f !important;
+}
+
 .btn-primary {
-  background-color: #3490dc;
-  border-bottom-width: 8px;
-  border-color: #2779bd;
-  border-radius: .25rem;
-  color: #fff;
-  font-size: 1.25rem;
-  cursor: pointer;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-decoration: none;
+  background-color: #3490dc !important;
+  border-color: #2779bd !important;
+  color: #fff !important;
 }
 
 .btn-primary:hover {
-  background-color: #6cb2eb;
-  border-color: #3490dc;
+  background-color: #6cb2eb !important;
+  border-color: #3490dc !important;
 }
 
 .btn-green {
-  background-color: #4dc0b5;
-  border-bottom-width: 8px;
-  border-color: #38a89d;
-  border-radius: .25rem;
-  color: #fff;
-  font-size: 1.25rem;
-  cursor: pointer;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-decoration: none;
+  background-color: #4dc0b5 !important;
+  border-color: #38a89d !important;
+  color: #fff !important;
 }
 
 .btn-green:hover {
-  background-color: #64d5ca;
-  border-color: #4dc0b5;
+  background-color: #64d5ca !important;
+  border-color: #4dc0b5 !important;
 }
 
 .btn-grey {
-  background-color: #b8c2cc;
-  border-bottom-width: 8px;
-  border-color: #8795a1;
-  border-radius: .25rem;
-  color: #22292f;
-  font-size: 1.25rem;
-  cursor: pointer;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-decoration: none;
+  background-color: #b8c2cc !important;
+  border-color: #8795a1 !important;
+  color: #22292f !important;
 }
 
 .btn-grey:hover {
-  background-color: #dae1e7;
-  border-color: #b8c2cc;
+  background-color: #dae1e7 !important;
+  border-color: #b8c2cc !important;
 }
 
 /**
