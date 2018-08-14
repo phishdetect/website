@@ -109,6 +109,20 @@ a.cc:hover {
     @apply bg-grey-light border-grey !important;
 }
 
+.docs-box {
+    @apply bg-blue-lighter p-10 m-4 rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
+}
+.docs-box:hover {
+    @apply bg-blue-lightest border-blue-lighter text-blue-dark !important;
+}
+
+.docs-box-admin {
+    @apply bg-teal-lighter p-10 m-4 rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
+}
+.docs-box-admin:hover {
+    @apply bg-teal-lightest border-teal-lighter text-teal-dark !important;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.

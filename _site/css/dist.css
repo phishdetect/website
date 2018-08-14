@@ -785,6 +785,40 @@ a.cc:hover {
   border-color: #b8c2cc !important;
 }
 
+.docs-box {
+  background-color: #bcdefa !important;
+  padding: 2.5rem !important;
+  margin: 1rem !important;
+  border-radius: .5rem !important;
+  text-decoration: none !important;
+  color: #1c3d5a !important;
+  border-top-width: 8px !important;
+  border-color: #6cb2eb !important;
+}
+
+.docs-box:hover {
+  background-color: #eff8ff !important;
+  border-color: #bcdefa !important;
+  color: #2779bd !important;
+}
+
+.docs-box-admin {
+  background-color: #a0f0ed !important;
+  padding: 2.5rem !important;
+  margin: 1rem !important;
+  border-radius: .5rem !important;
+  text-decoration: none !important;
+  color: #20504f !important;
+  border-top-width: 8px !important;
+  border-color: #64d5ca !important;
+}
+
+.docs-box-admin:hover {
+  background-color: #e8fffe !important;
+  border-color: #a0f0ed !important;
+  color: #38a89d !important;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
