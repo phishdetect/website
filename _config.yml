@@ -17,3 +17,7 @@ github_username:  phishdetect
 
 # Build settings
 markdown: kramdown
+
+exclude:
+    - node_modules
+    - Makefile
