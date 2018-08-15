@@ -23,7 +23,7 @@ These last two options have the advantage of analyzing the content of the webpag
 
 ## Integration with Gmail
 
-When you click on a link contained inside the body of an email through the Gmail web interface, you should be presented with the following dialog:
+PhishDetect Browser Extension is able to integrate with Gmail's web interface. When you have PhishDetect Browser Extension installed and you click on a link contained inside the body of an email, you should be presented with the following dialog:
 
 <img src="gmail.png" class="lg:w-3/5" />
 
