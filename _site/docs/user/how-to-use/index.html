@@ -35,7 +35,45 @@
 <div class="container mx-auto justify-center items-center docs">
     <h1 class="mt-10  mb-8 text-center"><i class="fas fa-book"></i> How to Use PhishDetect</h1>
 
-    <p>ASd</p>
+    <p>If you are suspicious of a webpage you have opened or a link you have received, you can ask the configured PhishDetect Node to scan scan them for phishing. A PhishDetect Node is a service that securely conducts the scanning of the suspicious link or page. Every newly installed brower extension comes pre-configured with a default PhishDetect Node located at node.phishdetect.io, which is operated by the creators of PhishDetect.</p>
+
+<h2 id="scanning-links-and-pages">Scanning links and pages</h2>
+
+<p>If you have received a link (for example through a private message or via social media) and you want to check it, you can right-click on the link and use the menu option “Scan this link for phishing”:</p>
+
+<p><img src="scan_link.png" alt="" /></p>
+
+<p>If you already have open a page you are suspicious of, you can right-click on the page and use the “Scan this page for phishing” context menu option:</p>
+
+<p><img src="scan_page.png" alt="" /></p>
+
+<p>Alternatively, you can click on the hook button in the browser’s toolbar and click on the “Scan this page” button:</p>
+
+<p><img src="popup.png" alt="" /></p>
+
+<p>These last two options have the advantage of analyzing the content of the webpage directly as it was rendered in your browser, therefore likely avoiding any potential anti-detection system the phishing kit might implement. These options are also normally a lot faster.</p>
+
+<h2 id="integration-with-gmail">Integration with Gmail</h2>
+
+<p>When you click on a link contained inside the body of an email through the Gmail web interface, you should be presented with the following dialog:</p>
+
+<p><img src="gmail.png" class="lg:w-3/5" /></p>
+
+<p>The <span class="text-blue font-bold">?</span> button takes you here.</p>
+
+<p>By pressing the <span class="text-red font-bold">Directly</span> red button, you are directed straight to the original link.</p>
+
+<p>By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to this service. This service will analyze the link and try to determine whether there is anything suspicious with it.</p>
+
+<h2 id="verdict">Verdict</h2>
+
+<p>In case any suspicious element is found, you will be presented with a preview of the page and a warning.</p>
+
+<p><img src="warning.png" class="lg:w-3/5" /></p>
+
+<p>If nothing suspicious if found, or if the page was even identified to be whitelisted (meaning it belongs to well-known online services such as Google, Facebook, Twitter, etc.) you will be presented with a temporary preview and you will then be redirected to the original link after 30 seconds.</p>
+
+<p><img src="redirect.png" class="lg:w-3/5" /></p>
 
 </div>
 
