@@ -797,9 +797,9 @@ a.cc:hover {
 }
 
 .docs-box:hover {
-  background-color: #eff8ff !important;
-  border-color: #bcdefa !important;
-  color: #2779bd !important;
+  background-color: #3490dc !important;
+  border-color: #2779bd !important;
+  color: #eff8ff !important;
 }
 
 .docs-box-admin {
@@ -814,9 +814,9 @@ a.cc:hover {
 }
 
 .docs-box-admin:hover {
-  background-color: #e8fffe !important;
-  border-color: #a0f0ed !important;
-  color: #38a89d !important;
+  background-color: #4dc0b5 !important;
+  border-color: #38a89d !important;
+  color: #e8fffe !important;
 }
 
 /**
