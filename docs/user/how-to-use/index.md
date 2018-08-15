@@ -23,7 +23,7 @@ These last two options have the advantage of analyzing the content of the webpag
 
 ## Integration with Gmail
 
-PhishDetect Browser Extension is able to integrate with Gmail's web interface. When you have PhishDetect Browser Extension installed and you click on a link contained inside the body of an email, you should be presented with the following dialog:
+PhishDetect Browser Extension is able to integrate with Gmail's web interface. When you have PhishDetect Browser Extension installed and you click on a link contained inside the body of an email, instead of being taken directly to the link, you should be presented with the following dialog:
 
 <img src="gmail.png" class="lg:w-3/5" />
 
@@ -33,9 +33,9 @@ By pressing the <span class="text-red font-bold">Directly</span> red button, you
 
 By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to the configured PhishDetect Node, which will then analyze the link and try to determine whether there is anything suspicious with it.
 
-## Verdict
+## Analysis results
 
-In case any suspicious element is found, you will be presented with a preview of the page and a warning.
+In the case you requested PhishDetect to perform the analysis of a link or of a page, you will be presented with a loading screen until the analysis is complete. The time necessary to complete an analysis depends on whether you requested the scan of a link or of a page and on the responsiveness of the target website. In any case it should only take a few seconds. Once the analysis is completed, if any suspicious element is found, you will be presented with a preview of the page and a warning.
 
 <img src="warning.png" class="lg:w-3/5" />
 
