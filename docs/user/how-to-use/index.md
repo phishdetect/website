@@ -27,11 +27,11 @@ When you click on a link contained inside the body of an email through the Gmail
 
 <img src="gmail.png" class="lg:w-3/5" />
 
-The <span class="text-blue font-bold">?</span> button takes you here.
+The <span class="text-blue font-bold">?</span> button takes you this website.
 
 By pressing the <span class="text-red font-bold">Directly</span> red button, you are directed straight to the original link.
 
-By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to this service. This service will analyze the link and try to determine whether there is anything suspicious with it.
+By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to the configured PhishDetect Node, which will then analyze the link and try to determine whether there is anything suspicious with it.
 
 ## Verdict
 
