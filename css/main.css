@@ -44,10 +44,6 @@ h1, h2, h3, h4 {
     @apply text-black;
 }
 
-h1 {
-    @apply text-5xl;
-}
-
 p {
     @apply leading-normal text-justify;
 }
@@ -110,14 +106,14 @@ a.cc:hover {
 }
 
 .docs-box {
-    @apply bg-blue-lighter p-10 m-4 rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
+    @apply bg-blue-lighter rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
 }
 .docs-box:hover {
     @apply bg-blue border-blue-dark text-blue-lightest !important;
 }
 
 .docs-box-admin {
-    @apply bg-teal-lighter p-10 m-4 rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
+    @apply bg-teal-lighter rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
 }
 .docs-box-admin:hover {
     @apply bg-teal border-teal-dark text-teal-lightest !important;

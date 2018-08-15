@@ -629,9 +629,9 @@ table {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .container {
-    max-width: 576px;
+    max-width: 300px;
   }
 }
 
@@ -679,10 +679,6 @@ h2,
 h3,
 h4 {
   color: #22292f;
-}
-
-h1 {
-  font-size: 3rem;
 }
 
 p {
@@ -787,8 +783,6 @@ a.cc:hover {
 
 .docs-box {
   background-color: #bcdefa !important;
-  padding: 2.5rem !important;
-  margin: 1rem !important;
   border-radius: .5rem !important;
   text-decoration: none !important;
   color: #1c3d5a !important;
@@ -804,8 +798,6 @@ a.cc:hover {
 
 .docs-box-admin {
   background-color: #a0f0ed !important;
-  padding: 2.5rem !important;
-  margin: 1rem !important;
   border-radius: .5rem !important;
   text-decoration: none !important;
   color: #20504f !important;
@@ -6430,7 +6422,7 @@ a.cc:hover {
  * @import "utilities/skew-transforms";
  */
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .sm\:list-reset {
     list-style: none;
     padding: 0;

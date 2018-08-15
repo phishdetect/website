@@ -2,23 +2,23 @@
 <html>
 {% include head.html %}
 <body>
-<div class="p-10 border-b border-grey-light">
-  <ul class="list-reset flex">
-      <li class="pr-12 mr-12 border-r border-grey-light">
+<div class="md:p-10 sm:p-6 border-b border-grey-light">
+  <ul class="list-reset md:flex">
+      <li class="pr-12 mr-12 md:border-r md:border-grey-light">
           <a class="dark" href="/"><b>PhishDetect</b></a>
       </li>
-      <li class="mr-12">
+      <li class="mr-12 md:mt-0 sm:mt-4">
           <a class="text-blue hover:text-blue-dark" href="/download/">Download</a>
       </li>
-      <li class="mr-12">
+      <li class="mr-12 md:mt-0 sm:mt-4">
           <a class="text-blue hover:text-blue-dark" href="/docs/">Documentation</a>
       </li>
-      <li class="mr-12">
+      <li class="mr-12 md:mt-0 sm:mt-4">
           <a class="text-blue hover:text-blue-dark" href="/faq/">FAQ</a>
       </li>
   </ul>
 </div>
-<div class="p-12">
+<div class="md:p-12 sm:p-4">
 {{ content }}
 </div>
 {% include footer.html %}
