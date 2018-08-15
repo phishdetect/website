@@ -119,6 +119,13 @@ a.cc:hover {
     @apply bg-teal border-teal-dark text-teal-lightest !important;
 }
 
+.docs img {
+    @apply rounded-lg shadow-lg;
+}
+.docs p {
+    @apply mb-6;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
