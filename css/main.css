@@ -37,7 +37,7 @@
  */
 
 body {
-    @apply bg-grey-lightest text-grey-darkest;
+    @apply bg-grey-lightest text-grey-darker;
 }
 
 h1, h2, h3, h4 {
@@ -112,11 +112,23 @@ a.cc:hover {
     @apply bg-blue border-blue-dark text-blue-lightest !important;
 }
 
+.docs-box-alert {
+    @apply bg-red-lighter rounded-lg no-underline text-red-darker border-t-8 border-red-light !important;
+}
+.docs-box-alert:hover {
+    @apply bg-red border-red-dark text-red-lightest !important;
+}
+
+
 .docs-box-admin {
     @apply bg-teal-lighter rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
 }
 .docs-box-admin:hover {
     @apply bg-teal border-teal-dark text-teal-lightest !important;
+}
+
+.docs h2, h3, h4 {
+    @apply mb-4 mt-12;
 }
 
 .docs img {

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: How to Use PhishDetect
+title: How to use PhishDetect
 ---
 
 If you are suspicious of a webpage you have opened or a link you have received, you can ask the configured PhishDetect Node to scan scan them for phishing. A PhishDetect Node is a service that securely conducts the scanning of the suspicious link or page. Every newly installed brower extension comes pre-configured with a default PhishDetect Node located at node.phishdetect.io, which is operated by the creators of PhishDetect.
@@ -35,10 +35,14 @@ By pressing the <span class="text-green font-bold">Safely</span> green button, y
 
 ## Analysis results
 
-In the case you requested PhishDetect to perform the analysis of a link or of a page, you will be presented with a loading screen until the analysis is complete. The time necessary to complete an analysis depends on whether you requested the scan of a link or of a page and on the responsiveness of the target website. In any case it should only take a few seconds. Once the analysis is completed, if any suspicious element is found, you will be presented with a preview of the page and a warning.
+In the case you requested PhishDetect to perform the analysis of a link or of a page, you will be presented with a loading screen until the analysis is complete. The time necessary to complete an analysis depends on whether you requested the scan of a link or of a page and on the responsiveness of the target website. In any case it should only take a few seconds.
+
+Once the analysis is completed, if nothing suspicious if found or if the page was even identified to be whitelisted (meaning it belongs to well-known online services such as Google, Facebook, Twitter, etc.) you will be presented with a temporary preview and you will then be automatically redirected to the original link after 30 seconds.
+
+<img src="redirect.png" class="lg:w-3/5" />
+
+Instead, if any suspicious element is found, you will be presented with a preview of the page and a warning.
 
 <img src="warning.png" class="lg:w-3/5" />
 
-If nothing suspicious if found, or if the page was even identified to be whitelisted (meaning it belongs to well-known online services such as Google, Facebook, Twitter, etc.) you will be presented with a temporary preview and you will then be redirected to the original link after 30 seconds.
-
-<img src="redirect.png" class="lg:w-3/5" />
+Please, always exercise caution. It is possible that some advanced phishing attacks are able to identify and bypass PhishDetect. If you have reasons to believe that a link that PhishDetect considered clean is in fact malicious, reach out to someone for assistance. If you suspect you've been a victim of a phishing attack, check out the [Have you been phished?](/docs/user/phished/) guide on this website. You might also find some answers to your questions in our [FAQ](/faq/). If you want to learn more about what data PhishDetect collects, refer to the [Privacy Policy](/docs/user/privacy/).

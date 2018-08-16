@@ -671,7 +671,7 @@ table {
 
 body {
   background-color: #f8fafc;
-  color: #3d4852;
+  color: #606f7b;
 }
 
 h1,
@@ -796,6 +796,21 @@ a.cc:hover {
   color: #eff8ff !important;
 }
 
+.docs-box-alert {
+  background-color: #f9acaa !important;
+  border-radius: .5rem !important;
+  text-decoration: none !important;
+  color: #621b18 !important;
+  border-top-width: 8px !important;
+  border-color: #ef5753 !important;
+}
+
+.docs-box-alert:hover {
+  background-color: #e3342f !important;
+  border-color: #cc1f1a !important;
+  color: #fcebea !important;
+}
+
 .docs-box-admin {
   background-color: #a0f0ed !important;
   border-radius: .5rem !important;
@@ -809,6 +824,13 @@ a.cc:hover {
   background-color: #4dc0b5 !important;
   border-color: #38a89d !important;
   color: #e8fffe !important;
+}
+
+.docs h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 
 .docs img {

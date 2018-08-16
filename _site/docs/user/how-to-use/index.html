@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>How to Use PhishDetect | PhishDetect</title>
+    <title>How to use PhishDetect | PhishDetect</title>
     <link rel="stylesheet" href="/css/dist.css" />
     <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
@@ -33,7 +33,7 @@
 </div>
 <div class="md:p-12 sm:p-4">
 <div class="container mx-auto justify-center items-center docs">
-    <h1 class="mt-10  mb-8 text-center"><i class="fas fa-book"></i> How to Use PhishDetect</h1>
+    <h1 class="mt-10  mb-8 text-center"><i class="fas fa-book"></i> How to use PhishDetect</h1>
 
     <p>If you are suspicious of a webpage you have opened or a link you have received, you can ask the configured PhishDetect Node to scan scan them for phishing. A PhishDetect Node is a service that securely conducts the scanning of the suspicious link or page. Every newly installed brower extension comes pre-configured with a default PhishDetect Node located at node.phishdetect.io, which is operated by the creators of PhishDetect.</p>
 
@@ -67,13 +67,17 @@
 
 <h2 id="analysis-results">Analysis results</h2>
 
-<p>In the case you requested PhishDetect to perform the analysis of a link or of a page, you will be presented with a loading screen until the analysis is complete. The time necessary to complete an analysis depends on whether you requested the scan of a link or of a page and on the responsiveness of the target website. In any case it should only take a few seconds. Once the analysis is completed, if any suspicious element is found, you will be presented with a preview of the page and a warning.</p>
+<p>In the case you requested PhishDetect to perform the analysis of a link or of a page, you will be presented with a loading screen until the analysis is complete. The time necessary to complete an analysis depends on whether you requested the scan of a link or of a page and on the responsiveness of the target website. In any case it should only take a few seconds.</p>
+
+<p>Once the analysis is completed, if nothing suspicious if found or if the page was even identified to be whitelisted (meaning it belongs to well-known online services such as Google, Facebook, Twitter, etc.) you will be presented with a temporary preview and you will then be automatically redirected to the original link after 30 seconds.</p>
+
+<p><img src="redirect.png" class="lg:w-3/5" /></p>
+
+<p>Instead, if any suspicious element is found, you will be presented with a preview of the page and a warning.</p>
 
 <p><img src="warning.png" class="lg:w-3/5" /></p>
 
-<p>If nothing suspicious if found, or if the page was even identified to be whitelisted (meaning it belongs to well-known online services such as Google, Facebook, Twitter, etc.) you will be presented with a temporary preview and you will then be redirected to the original link after 30 seconds.</p>
-
-<p><img src="redirect.png" class="lg:w-3/5" /></p>
+<p>Please, always exercise caution. It is possible that some advanced phishing attacks are able to identify and bypass PhishDetect. If you have reasons to believe that a link that PhishDetect considered clean is in fact malicious, reach out to someone for assistance. If you suspect you’ve been a victim of a phishing attack, check out the <a href="/docs/user/phished/">Have you been phished?</a> guide on this website. You might also find some answers to your questions in our <a href="/faq/">FAQ</a>. If you want to learn more about what data PhishDetect collects, refer to the <a href="/docs/user/privacy/">Privacy Policy</a>.</p>
 
 </div>
 
