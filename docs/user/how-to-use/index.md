@@ -46,3 +46,6 @@ Instead, if any suspicious element is found, you will be presented with a previe
 <img src="warning.png" class="lg:w-3/5" />
 
 Please, always exercise caution. It is possible that some advanced phishing attacks are able to identify and bypass PhishDetect. If you have reasons to believe that a link that PhishDetect considered clean is in fact malicious, reach out to someone for assistance. If you suspect you've been a victim of a phishing attack, check out the [Have you been phished?](/docs/user/phished/) guide on this website. You might also find some answers to your questions in our [FAQ](/faq/). If you want to learn more about what data PhishDetect collects, refer to the [Privacy Policy](/docs/user/privacy/).
+
+<p class="bg-blue-lightest border-l-8 border-blue-lighter text-blue-darker p-4 rounded-lg"><b>Please note:</b> PhishDetect is free sofware and is provided as is. It is a best effort, and while we try to the best of our abilities to provide reliable detection, <b>you should use PhishDetect understanding that it is not infallible and that we do not take responsibility for phishing attacks that PhishDetect might have failed to detect or that you have fallen victim of.</b>
+Please refer to our <a href="/faq/">FAQ</a> page for similar concerns.</p>

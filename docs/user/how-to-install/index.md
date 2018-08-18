@@ -15,4 +15,6 @@ The first **Scan this page!** button will ask PhishDetect to scan the currently 
 
 The PhishDetect Browser Extension needs to be configured to communicate to what is called a **PhishDetect Node**. By default the extension is configured to communicate with a node located at **node.phishdetect.io**, which is operated by the creators of PhishDetect. However, through the Settings form you can change it to any other Node you prefer. For example, if you work for an organization that operates its own PhishDetect Node, you might have been provided with a PhishDetect Node address which you can enter through this form.
 
+<p class="bg-blue-lightest border-l-8 border-blue-lighter text-blue-darker p-4 mb-4 rounded-lg"><b>Please note:</b> if you decide to use an independent PhishDetect Node, we can not know the identity or intentions of its operators. <b>We do not take any responsibility for the actions of PhishDetect Nodes operators, and you rely on them at your own risk.</b> Please make sure you use a PhishDetect Node operated by a trusted party, and refer to them for any concerns you might have.</p>
+
 **That is all!** There is nothing else you need to do! You can proceed to the [How to Use](/docs/user/how-to-use/) guide.
