@@ -781,7 +781,12 @@ a.cc:hover {
   border-color: #b8c2cc !important;
 }
 
+.docs-box-link {
+  text-decoration: none !important;
+}
+
 .docs-box {
+  vertical-align: middle !important;
   background-color: #bcdefa !important;
   border-radius: .5rem !important;
   text-decoration: none !important;
@@ -797,6 +802,7 @@ a.cc:hover {
 }
 
 .docs-box-alert {
+  vertical-align: middle !important;
   background-color: #f9acaa !important;
   border-radius: .5rem !important;
   text-decoration: none !important;
@@ -812,6 +818,7 @@ a.cc:hover {
 }
 
 .docs-box-admin {
+  vertical-align: middle !important;
   background-color: #a0f0ed !important;
   border-radius: .5rem !important;
   text-decoration: none !important;

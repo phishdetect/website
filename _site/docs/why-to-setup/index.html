@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Have you been phished? | PhishDetect</title>
+    <title>Why to setup a PhishDetect Node | PhishDetect</title>
     <link rel="stylesheet" href="/css/dist.css" />
     <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
@@ -24,7 +24,7 @@
           <a class="text-blue hover:text-blue-dark" href="/download/">Download</a>
       </li>
       <li class="mr-12 md:mt-0 sm:mt-4">
-          <a class="text-blue hover:text-blue-dark" href="/docs/">Documentation</a>
+          <a class="text-blue hover:text-blue-dark" href="/help/">Help</a>
       </li>
       <li class="mr-12 md:mt-0 sm:mt-4">
           <a class="text-blue hover:text-blue-dark" href="/faq/">FAQ</a>
@@ -33,21 +33,25 @@
 </div>
 <div class="md:p-12 sm:p-4">
 <div class="container mx-auto justify-center items-center docs">
-    <h1 class="mt-10  mb-8 text-center"><i class="fas fa-book"></i> Have you been phished?</h1>
+    <h1 class="mt-10  mb-8 text-center"><i class="fas fa-question-circle"></i> Why to setup a PhishDetect Node</h1>
 
-    <p>If PhishDetect alerted you of a potential phishing page <strong>there is no need to panic</strong>. If you have not entered your credentials anywhere yet, nothing bad has likely happened. And even in that case there are steps you can take to regain control of your accounts and minimize any damage.</p>
+    <p>A <strong>PhishDetect Node</strong> is a server running a PhishDetect service, normally the web interface that a PhishDetect Browser Extension can be configured to use. By default, the extension is configured to use a PhishDetect Node located at <strong>node.phishdetect.io</strong> that is operated by the cretors of PhishDetect.</p>
 
-<h2 id="are-you-afraid-you-might-have-fallen-for-a-phishing-attack">Are you afraid you might have fallen for a phishing attack?</h2>
+<p>However, we encourage the creation of independent Phishdetect Nodes whenever possible. There are multiple reasons why you would want to setup your own PhishDetect Node:</p>
 
-<p>If you are afraid that you might have fallen for a phishing attack, the first thing to keep in mind is to <strong>not feel guilty or embarrassed in seeking help</strong>. These attacks can be very personalized and sophisticated, hard to recognize and protect against.</p>
+<ol>
+  <li>
+    <p>While there might be several ways for an attacker to identify a PhishDetect Node connecting to the phishing kits (for example by fingerprinting the instrumented headless Google Chrome browser), the most obvious way is by blacklisting the originating IP address. Because the default <code class="highlighter-rouge">node.phishdetect.io</code> is publicly accessible and is not meant to be resistant to be resistant to fingerprinting, it might be the case that careful attackers might notice it and block it. <strong>By running your own PhishDetect Node you will be able to diversify and reduce the risk of getting blacklisted.</strong></p>
+  </li>
+  <li>
+    <p>While we do the best to protect users’ privacy, <strong>you might want to run your own PhishDetect Node to reduce exposure of potential personal or private information</strong> (see our <a href="/docs/user/privacy/">Privacy Policy</a> for more details on what data could be collected).</p>
+  </li>
+  <li>
+    <p>If you work for an organization or are part of a group of people who might benefit from using PhishDetect, you might want to run your own Node in order to more directly support your peers and have some visibility over the suspicious links they might receive. Because PhishDetect is free software, you can also modify to better suit your or your organization’s needs and perhaps integrate it in other existing workflows and processes.</p>
+  </li>
+</ol>
 
-<p>If you work for or with an organization that might support you, reach out for help. Even if your organization does not have computer specialists on staff, some of your peers might be in contact with some that could help.</p>
-
-<p>If you do not have access to any immediate support, you could consider leveraging some resources that are available to civil society. For a timely assistance you might considering reaching out to <a href="https://www.accessnow.org/help">Access Now Digital Security Helpline</a>, which employs staff available to assist you 24/7.</p>
-
-<h2 id="do-you-want-to-review-your-online-accounts-security">Do you want to review your online accounts’ security?</h2>
-
-<p>Security Without Borders provides some simple guides and instructions that can help you to review your security settings and security events for your Google, Facebook, and other online accounts.</p>
+<p>If you are interested in running your own PhishDetet Node, you can proceed to the <a href="/docs/admin/how-to-setup/">How to setup a PhishDetect Node</a> instructions.</p>
 
 </div>
 

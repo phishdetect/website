@@ -105,23 +105,26 @@ a.cc:hover {
     @apply bg-grey-light border-grey !important;
 }
 
+.docs-box-link {
+    @apply no-underline !important;
+}
+
 .docs-box {
-    @apply bg-blue-lighter rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
+    @apply align-middle bg-blue-lighter rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
 }
 .docs-box:hover {
     @apply bg-blue border-blue-dark text-blue-lightest !important;
 }
 
 .docs-box-alert {
-    @apply bg-red-lighter rounded-lg no-underline text-red-darker border-t-8 border-red-light !important;
+    @apply align-middle bg-red-lighter rounded-lg no-underline text-red-darker border-t-8 border-red-light !important;
 }
 .docs-box-alert:hover {
     @apply bg-red border-red-dark text-red-lightest !important;
 }
 
-
 .docs-box-admin {
-    @apply bg-teal-lighter rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
+    @apply align-middle bg-teal-lighter rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
 }
 .docs-box-admin:hover {
     @apply bg-teal border-teal-dark text-teal-lightest !important;
