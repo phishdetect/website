@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: help
 title: Have you been phished?
 ---
 

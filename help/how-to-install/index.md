@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: help
 title: How to Install PhishDetect
 ---
 

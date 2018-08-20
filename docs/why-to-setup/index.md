@@ -9,9 +9,9 @@ However, we encourage the creation of independent Phishdetect Nodes whenever pos
 
 1. While there might be several ways for an attacker to identify a PhishDetect Node connecting to the phishing kits (for example by fingerprinting the instrumented headless Google Chrome browser), the most obvious way is by blacklisting the originating IP address. Because the default `node.phishdetect.io` is publicly accessible and is not meant to be resistant to be resistant to fingerprinting, it might be the case that careful attackers might notice it and block it. **By running your own PhishDetect Node you will be able to diversify and reduce the risk of getting blacklisted.**
 
-2. While we do the best to protect users' privacy, **you might want to run your own PhishDetect Node to reduce exposure of potential personal or private information** (see our [Privacy Policy](/docs/user/privacy/) for more details on what data could be collected).
+2. While we do the best to protect users' privacy, **you might want to run your own PhishDetect Node to reduce exposure of potential personal or private information** (see our [Privacy Policy](/help/privacy/) for more details on what data could be collected).
 
 3. If you work for an organization or are part of a group of people who might benefit from using PhishDetect, you might want to run your own Node in order to more directly support your peers and have some visibility over the suspicious links they might receive. Because PhishDetect is free software, you can also modify to better suit your or your organization's needs and perhaps integrate it in other existing workflows and processes.
 
 
-If you are interested in running your own PhishDetet Node, you can proceed to the [How to setup a PhishDetect Node](/docs/admin/how-to-setup/) instructions.
+If you are interested in running your own PhishDetet Node, you can proceed to the [How to setup a PhishDetect Node](/docs/how-to-setup/) instructions.
