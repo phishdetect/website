@@ -6,22 +6,30 @@ permalink: /faq/
 
 <h1 class="mt-10 text-center"><i class="fas fa-question-circle"></i> FAQ</h1>
 
-<h2 class="md:mt-16 sm:mt-8 mb-4">Do you read or have access to my emails?</h2>
+<ul id="faq-menu" class="mt-8">
+    <li><a href="#q-access-emails">Do you read or have access to my emails?</a></li>
+    <li><a href="#q-detect-all">Can PhishDetect detect every phishing attack?</a></li>
+    <li><a href="#q-protect">How do I protect myself from phishing attacks?</a></li>
+    <li><a href="#q-2fa">I have Two-Factor Authentication enabled. Why do I need PhishDetect?</a></li>
+    <li><a href="#q-node">What is a <i>PhishDetect Node</i>?</a></li>
+</ul>
+
+<h2 id="q-access-emails" class="md:mt-16 sm:mt-8 mb-4">Do you read or have access to my emails?</h2>
 
 <p>No. The operators of a PhishDetect node do not have access to your email account. The PhishDetect browser extension does not send any email anywhere. The PhishDetect browser extension is able to send to the configured node <b>only</b> a link and, in case you have it opened, the HTML content of the suspicious page you want checked, and <b>only</b> when manually requested by you.</p>
 
-<h2 class="md:mt-16 sm:mt-8 mb-4">Can PhishDetect detect every phishing attack?</h2>
+<h2 id="q-detect-all" class="md:mt-16 sm:mt-8 mb-4">Can PhishDetect detect every phishing attack?</h2>
 
 <p>No. <b>PhishDetect is a best effort</b> and it aims at supporting the user in determining whether a page is legitimate or suspicious, but <b>it is not infallible</b> and therefore we can not take responsibility for any successful phishing attack you might be a victim of. Sometimes, PhishDetect might mistakenly flag a page as phishing, while other times it might mistakenly report it as clean. In those cases or in cases of doubt, please get in contact with your PhishDetect node operators or a trusted technician.</p>
 
-<h2 class="md:mt-16 sm:mt-8 mb-4">How do I protect myself from phishing attacks?</h2>
+<h2 id="q-protect" class="md:mt-16 sm:mt-8 mb-4">How do I protect myself from phishing attacks?</h2>
 
 <p>Many services offer different forms of mitigations to harden the security of your online accounts. For example, strong forms of Two-Factor Authenticaiton can provide an immediate significant benefit. You should check out Security Without Borders' <a href="https://guides.securitywithoutborders.org/guide-to-phishing/">Guide to Phishing</a> to learn more about how phishing attacks works and how to protect yourself against them.</p>
 
-<h2 class="md:mt-16 sm:mt-8 mb-4">I have Two-Factor Authentication enabled. Why do I need PhishDetect?</h2>
+<h2 id="q-2fa" class="md:mt-16 sm:mt-8 mb-4">I have Two-Factor Authentication enabled. Why do I need PhishDetect?</h2>
 
 <p>Firstly, not every form of Two-Factor Authentication is effective against every type of phishing attack. You should check out Security Without Borders' <a href="https://guides.securitywithoutborders.org/guide-to-phishing/">Guide to Phishing</a> to learn more about this. Secondly, and more importantly, in addition to prevention we believe it is critical for at-risk individuals to be provided with <i>detection</i>: even if attempted attacks against you are unsuccessful, being alerted about them can be important for re-assessing your risk. Digital attacks don't happen in a vacuum, but can be an indication of increased pressure and threats. Last, but not least, through PhishDetect you can easily share the attacks you receive, and enable other PhishDetect users to be protected from those too.</p>
 
-<h2 class="md:mt-16 sm:mt-8 mb-4">What is a <i>PhishDetect Node</i>?</h2>
+<h2 id="q-node" class="md:mt-16 sm:mt-8 mb-4">What is a <i>PhishDetect Node</i>?</h2>
 
 <p>A <b>PhishDetect Node</b> is a server running the PhishDetect software to which clients, such as the browser extension, connect to. While there is a primary PhishDetect Node operated by the creators of this project, anyone can run a PhishDetect Node and offer it as a service to their beneficiaries. In order to encourage this, all the software part of the PhishDetect project is realeased as <a href="https://github.com/phishdetect/">open source</a>. If you are interested in running a PhishDetect Node of your own, check the <a href="https://phishdetect.gitbook.io">Administrators Guide</a>.</p>

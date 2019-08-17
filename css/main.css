@@ -141,6 +141,10 @@ a.cc:hover {
     @apply mb-6;
 }
 
+#faq-menu li {
+    @apply mb-2;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
