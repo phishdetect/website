@@ -105,33 +105,12 @@ a.cc:hover {
     @apply bg-grey-light border-grey !important;
 }
 
-.docs-box-link {
-    @apply no-underline !important;
-}
-
-.docs-box {
-    @apply align-middle bg-blue-lighter rounded-lg no-underline text-blue-darker border-t-8 border-blue-light !important;
-}
-.docs-box:hover {
-    @apply bg-blue border-blue-dark text-blue-lightest !important;
-}
-
-.docs-box-alert {
-    @apply align-middle bg-red-lighter rounded-lg no-underline text-red-darker border-t-8 border-red-light !important;
-}
-.docs-box-alert:hover {
-    @apply bg-red border-red-dark text-red-lightest !important;
-}
-
-.docs-box-admin {
-    @apply align-middle bg-teal-lighter rounded-lg no-underline text-teal-darker border-t-8 border-teal-light !important;
-}
-.docs-box-admin:hover {
-    @apply bg-teal border-teal-dark text-teal-lightest !important;
-}
-
 .docs h2, h3, h4 {
     @apply mb-4 mt-12;
+}
+
+.info-box {
+    @apply bg-blue-lightest border-l-8 border-blue-lighter text-blue-darker p-4 mb-4 rounded-lg;
 }
 
 .docs img {
@@ -139,6 +118,25 @@ a.cc:hover {
 }
 .docs p {
     @apply mb-6;
+}
+
+.docs-box {
+    @apply text-lg bg-grey-lighter text-blue-dark rounded-lg p-6 mb-6;
+}
+/*.docs-box a:link, .docs-box a:visited {
+    @apply text-blue-dark;
+}
+.docs-box a:hover {
+    @apply text-blue-darker;
+}*/
+.docs-box-red {
+    @apply text-lg bg-red-lightest text-red rounded-lg p-6 mb-6;
+}
+.docs-box-red a:link, .docs-box-red a:visited {
+    @apply text-red;
+}
+.docs-box-red a:hover {
+    @apply text-red-dark;
 }
 
 #faq-menu li {

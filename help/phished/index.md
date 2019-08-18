@@ -15,4 +15,4 @@ If you do not have access to any immediate support, you could consider leveragin
 
 ## Do you want to review your online accounts' security?
 
-Security Without Borders provides some simple guides and instructions that can help you to review your security settings and security events for your Google, Facebook, and other online accounts.
+Security Without Borders provides some simple guides and instructions that can help you to review your security settings and security events for your Google, Facebook, and other online accounts. You can check the Security Without Borders [Guide to Phishing](https://guides.securitywithoutborders.org/guide-to-phishing/) if you want to learn more about how phishing attacks work and how to protect yourself.

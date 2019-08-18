@@ -7,11 +7,15 @@ title: Privacy Policy
 
 ## What type of data PhishDetect collects
 
-When using PhishDetect Browser Extension's Gmail integration neither the developers of PhishDetect, nor the operators of the configured PhishDetect Node have in any way access to your email account. Neither your account information, nor any information related to emails you send or receive are sent anywhere. Only any link you manually request to have scanned is going to be forwarded to the configured PhishDetect Node.
+When using PhishDetect Browser Extension's Gmail integration neither the developers of PhishDetect, nor the operators of the configured PhishDetect Node have in any way access to your email account. Neither your account information, nor any information related to emails you send or receive are sent anywhere. Only any link you manually request to have scanned, or when you manually share a suspicious email or link, they are going to be forwarded to the configured PhishDetect Node.
 
 When using the *"Scan this link for phishing"* option only the link itself is forwarded to the configured PhishDetect Node. It is important to note that the link *might* contain some personal information (for example phishing pages often include in the link your name, or your email address in an encoded form).
 
 When using the *"Scan this page for phishing"* option or using the equivalent *"Scan this page!"* button from the toolbar, the PhishDetect Browser Extension will forward to the configured PhishDetect Node both the URL, the HTML content as well as the screenshot of the opened page. It is important to note that both the URL and especially the HTML content *might* contain personal and private information. PhishDetect Nodes normally **do not** store the HTML content of the page nor the screenshot. If you are using a non-default PhishDetect Node, please refer to its operators for confirmation.
+
+When using the *"Report to PhishDetect"* button inside the supported webmails, the full email will be sent to the configured PhishDetect Node, including email headers and attachments.
+
+When using the *"Report this Page"* button in the toolbar popup, the link of the opened tab will be sent to the configured PhishDetect Node.
 
 **PhishDetect Browser Extension does not perform any automated scan.** Only the links and suspicious pages you specifically requested to have verified are sent to the configured PhishDetect Node. **No action is performed without your expressed manual consent.**
 

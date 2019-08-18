@@ -684,63 +684,21 @@ a.cc:hover {
   border-color: #b8c2cc !important;
 }
 
-.docs-box-link {
-  text-decoration: none !important;
-}
-
-.docs-box {
-  vertical-align: middle !important;
-  background-color: #bcdefa !important;
-  border-radius: .5rem !important;
-  text-decoration: none !important;
-  color: #1c3d5a !important;
-  border-top-width: 8px !important;
-  border-color: #6cb2eb !important;
-}
-
-.docs-box:hover {
-  background-color: #3490dc !important;
-  border-color: #2779bd !important;
-  color: #eff8ff !important;
-}
-
-.docs-box-alert {
-  vertical-align: middle !important;
-  background-color: #f9acaa !important;
-  border-radius: .5rem !important;
-  text-decoration: none !important;
-  color: #621b18 !important;
-  border-top-width: 8px !important;
-  border-color: #ef5753 !important;
-}
-
-.docs-box-alert:hover {
-  background-color: #e3342f !important;
-  border-color: #cc1f1a !important;
-  color: #fcebea !important;
-}
-
-.docs-box-admin {
-  vertical-align: middle !important;
-  background-color: #a0f0ed !important;
-  border-radius: .5rem !important;
-  text-decoration: none !important;
-  color: #20504f !important;
-  border-top-width: 8px !important;
-  border-color: #64d5ca !important;
-}
-
-.docs-box-admin:hover {
-  background-color: #4dc0b5 !important;
-  border-color: #38a89d !important;
-  color: #e8fffe !important;
-}
-
 .docs h2,
 h3,
 h4 {
   margin-bottom: 1rem;
   margin-top: 3rem;
+}
+
+.info-box {
+  background-color: #eff8ff;
+  border-left-width: 8px;
+  border-color: #bcdefa;
+  color: #1c3d5a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
 }
 
 .docs img {
@@ -750,6 +708,40 @@ h4 {
 
 .docs p {
   margin-bottom: 1.5rem;
+}
+
+.docs-box {
+  font-size: 1.125rem;
+  background-color: #f1f5f8;
+  color: #2779bd;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*.docs-box a:link, .docs-box a:visited {
+    @apply text-blue-dark;
+}
+.docs-box a:hover {
+    @apply text-blue-darker;
+}*/
+
+.docs-box-red {
+  font-size: 1.125rem;
+  background-color: #fcebea;
+  color: #e3342f;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.docs-box-red a:link,
+.docs-box-red a:visited {
+  color: #e3342f;
+}
+
+.docs-box-red a:hover {
+  color: #cc1f1a;
 }
 
 #faq-menu li {
