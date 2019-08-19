@@ -110,7 +110,7 @@ a.cc:hover {
 }
 
 .info-box {
-    @apply bg-blue-lightest border-l-8 border-blue-lighter text-blue-darker p-4 mb-4 rounded-lg;
+    @apply bg-blue-lightest border-l-8 border-blue-lighter text-blue-darker p-4 mb-4 rounded-lg leading-normal;
 }
 
 .docs img {
