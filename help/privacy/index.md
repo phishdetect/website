@@ -21,7 +21,7 @@ When using the *"Report this Page"* button in the toolbar popup, the link of the
 
 ### If you are using the default PhishDetect Node
 
-We store details of links and pages that are detected to be suspicious, and we might use it to complement other defensive services such as [Blockade](https://securitywithoutborders.org/tools/blockade.html), by adding to its blocklist domains that are discovered serving phishing. These details are not shared with any third party and they are exclusively stored on a server in the Netherlands, provided by [Greenhost](https://greenhost.net). We do not store any information on scanned links and pages that were found to be innocuous.
+We store details of links and pages that are detected to be suspicious, in order to review detections and potentially update the internal list of malicious websites to be blocked. These details are not shared with any third party and they are exclusively stored on a server in the Netherlands, provided by [Greenhost](https://greenhost.net). We do not store any information on scanned links and pages that were found to be innocuous.
 
 ### If you are using an independent PhishDetect Node
 
