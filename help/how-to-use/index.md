@@ -5,6 +5,14 @@ title: How to use PhishDetect
 
 If you are suspicious of a webpage you have opened or a link you have received, you can ask the configured PhishDetect Node to scan scan them for phishing. A PhishDetect Node is a service that securely conducts the scanning of the suspicious link or page. Every newly installed brower extension comes pre-configured with a default PhishDetect Node located at node.phishdetect.io, which is operated by the creators of PhishDetect.
 
+## Malicious pages detected
+
+PhishDetect Browser Extension automatically and regularly receives an updated list of malicious websites flagged by the PhishDetect Node administrators. The extension will then automatically check if any website you are visiting has been marked as unsafe in such list. In that case, the extension will prevent the visit to the malicious website and display a warning.
+
+<img src="blockpage.png" class="lg:w-3/5" />
+
+If the option *Report alerts to PhishDetect Node* is enabled, the PhishDetect Node operators will be notified of this prevented visit.
+
 ## Scanning links and pages
 
 If you have received a link (for example through a private message or via social media) and you want to check it, you can right-click on the link and use the menu option "Scan this link for phishing":
@@ -17,7 +25,7 @@ If you already have open a page you are suspicious of, you can right-click on th
 
 Alternatively, you can click on the hook button in the browser's toolbar and click on the "Scan this page" button:
 
-![](popup.png)
+![](../how-to-install/popup.png)
 
 These last two options have the advantage of analyzing the content of the webpage directly as it was rendered in your browser, therefore likely avoiding any potential anti-detection system the phishing kit might implement. These options are also normally a lot faster.
 
@@ -32,6 +40,8 @@ The <span class="text-blue font-bold">?</span> button takes you this website.
 By pressing the <span class="text-red font-bold">Directly</span> red button, you are directed straight to the original link.
 
 By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to the configured PhishDetect Node, which will then analyze the link and try to determine whether there is anything suspicious with it.
+
+PhishDetect Browser Extension will also display a warning inside the email if it detects any known malicious links or senders.
 
 ## Analysis results
 
