@@ -21,7 +21,9 @@ When using the *"Report this Page"* button in the toolbar popup, the link of the
 
 ### If you are using the default PhishDetect Node
 
-We store details of links and pages that are detected to be suspicious, in order to review detections and potentially update the internal list of malicious websites to be blocked. These details are not shared with any third party and they are exclusively stored on a server in the Netherlands, provided by [Greenhost](https://greenhost.net). We do not store any information on scanned links and pages that were found to be innocuous.
+The browser extension uses a default PhishDetect Node located at **phishdetect.securitywithoutborders.org**, operated by [Security Without Borders](https://www.securitywithoutborders.org) and the creators of PhishDetect.
+
+We store events related to positive detections of blocked websites, suspicious links and emails manually reported by users. These details are not shared with any third party and they are exclusively stored on a server located in Sweden, hosted by [DFRI](https://dfri.se). We do not store any information on scanned links and pages that were found to be innocuous.
 
 ### If you are using an independent PhishDetect Node
 
