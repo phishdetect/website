@@ -31,7 +31,30 @@ These last two options have the advantage of analyzing the content of the webpag
 
 ## Integration with Gmail
 
-PhishDetect Browser Extension is able to integrate with Gmail's web interface. When you have PhishDetect Browser Extension installed and you click on a link contained inside the body of an email, instead of being taken directly to the link, you should be presented with the following dialog:
+PhishDetect Browser Extension is able to integrate with Gmail's web interface.
+
+### Displaying a warning
+
+When you have PhishDetect Browser Extension installed, it will automatically
+display a warning inside the email if it detects any known malicious links or
+senders.
+
+<img src="webmailwarning.png" class="lg:w-3/5" />
+
+### Reporting phishing emails
+
+PhishDetect adds a *Report to PhishDetect* button to the Gmail web interface.
+When you click this button, the full email contents will be sent securely to
+the PhishDetect node where an administrator can view it. In the PhishDetect
+settings, you can configure your contact info so the administrator can follow up
+with you if necessary.
+
+<img src="report.png" class="lg:w-3/5" />
+
+### Opening links
+
+When you click on a link contained inside the body of an email, instead of being
+taken directly to the link, you should be presented with the following dialog:
 
 <img src="gmail.png" class="lg:w-3/5" />
 
@@ -40,8 +63,6 @@ The <span class="text-blue font-bold">?</span> button takes you this website.
 By pressing the <span class="text-red font-bold">Directly</span> red button, you are directed straight to the original link.
 
 By pressing the <span class="text-green font-bold">Safely</span> green button, you are directed to the configured PhishDetect Node, which will then analyze the link and try to determine whether there is anything suspicious with it.
-
-PhishDetect Browser Extension will also display a warning inside the email if it detects any known malicious links or senders.
 
 ## Analysis results
 
